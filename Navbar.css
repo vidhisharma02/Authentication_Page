@@ -1,0 +1,44 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: black;
+  padding: 15px;
+  z-index: 1000;
+  height: 120px !important;
+  font-size: 20px !important;
+  padding: 15px 20px !important;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  display: flex;
+  justify-content: right;
+  width: 100%;
+  gap: 20px;
+}
+
+.navbar-nav .nav-link {
+  font-size: 30px;
+  padding: 10px 15px;
+  color: white !important;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: bold;
+  color: white !important;
+  margin-right: auto !important;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.user-email {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 10px;
+}

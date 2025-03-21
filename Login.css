@@ -1,0 +1,118 @@
+.container-box {
+    width: 850px;  /* Increase width */
+    height: auto;  /* Auto height */
+    background-color: white;
+    padding: 60px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bg-white {
+    width: 500px !important; /* Increased container size */
+    padding: 40px;  /* More padding */
+}
+
+input {
+    width: 1000%;
+    padding: 16px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 26px;
+}
+
+.btn-success {
+    width: 100%;
+    padding: 16px;
+    background-color: #28a745;
+    color: white;
+    font-size: 22px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-light {
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    background-color: black;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.text-top {
+    text-align: center;
+    margin-top: 25px;
+    color:black;
+    font-weight: bold;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 55px;
+    color: #0056b3;
+    text-decoration: solid;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+/* Styling for Remember Me & Forgot Password section */
+.remember-forgot-container {
+    display: flex;
+    justify-content: space-between; /* Space between checkbox & link */
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Styling for Remember Me checkbox */
+.remember-me {
+    display: flex;
+    align-items: center;
+}
+
+.remember-me input {
+    cursor: pointer;
+    transform: scale(1.1); /* Slightly larger checkbox */
+    margin-right: 5px; /* Spacing between checkbox and label */
+}
+
+.remember-me label {
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Styling for Forgot Password link */
+.forgot-password {
+    font-size: 14px;
+    color: #007bff; /* Bootstrap primary blue */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.forgot-password:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    .container-box {
+        width: 90%;  /* Make it responsive for small screens */
+        padding: 30px;
+    }
+}
